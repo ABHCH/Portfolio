@@ -336,7 +336,6 @@ body {
   background-color: var(--my-color2);
   box-shadow: 3px -1px 20px -2px rgba(0,0,0,0.75);
   border-radius: 1rem;
-  margin-left: 3rem;
 }
 .project1:hover{
   transition: 480ms ease;
