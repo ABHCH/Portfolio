@@ -1,4 +1,7 @@
 const projectContainer = document.querySelector(".my-projects");
+const menuBar = document.querySelector(".menu");
+const list = document.querySelector(".list");
+const cross = document.querySelector('.cross');
 
 projectdata.forEach((project) => {
   const html = `<div class="project1">
@@ -24,6 +27,16 @@ projectdata.forEach((project) => {
 
   </div>`;
 
-  projectContainer.insertAdjacentHTML('beforeend', html);
-
 });
+
+menuBar.addEventListener("click", () => {
+  list.classList.add('active-class');
+  menuBar.style.display  = 'none';
+  cross.style.display = 'block';
+})
+
+cross.addEventListener("click", () => {
+  list.classList.remove('active-class');
+  menuBar.style.display  = 'block';
+  cross.style.display = 'none';
+})
