@@ -7,6 +7,8 @@ const projectdata = [
         ProgrammingLang: "Javascript",
         webLang: "HTML",
         styling:"CSS",
+        githubLink:'https://github.com/ABHCH/Guess-my-Number',
+        proLink:'https://guess-my-number-one.vercel.app'
     },
     {
         id:2,
@@ -16,41 +18,18 @@ const projectdata = [
         ProgrammingLang: "Javascript",
         webLang: "HTML",
         styling:"CSS",
-    },
-    {
-        id:3,
-        projectName :"Expense Tracker",
-        aboutProject: "This app is made from using HTML, CSS ,JAVASCRIPT and this app to help to save your income and expenses and according to income and expense it has to update your budget balance .",
-        FrameWork: "React Js",
-        ProgrammingLang: "Javascript",
-        webLang: "HTML",
-        styling:"CSS",
+        githubLink:'https://github.com/ABHCH/Javascript-Projects/tree/main/Random%20Quote%20generator',
+        proLink:'https://github.com/ABHCH/Javascript-Projects/tree/main/Random%20Quote%20generator'
     },
     {
         id:4,
-        projectName :"Expense Tracker",
-        aboutProject: "This app is made from using HTML, CSS ,JAVASCRIPT and this app to help to save your income and expenses and according to income and expense it has to update your budget balance .",
+        projectName :"Dev-profiler",
+        aboutProject: "In this app We can search a github user id then fetch data from his account and show this app dashboard.",
         FrameWork: "React Js",
         ProgrammingLang: "Javascript",
         webLang: "HTML",
         styling:"CSS",
-    },
-    {
-        id:5,
-        projectName :"Expense Tracker",
-        aboutProject: "This app is made from using HTML, CSS ,JAVASCRIPT and this app to help to save your income and expenses and according to income and expense it has to update your budget balance .",
-        FrameWork: "React Js",
-        ProgrammingLang: "Javascript",
-        webLang: "HTML",
-        styling:"CSS",
-    },
-    {
-        id:5,
-        projectName :"Expense Tracker",
-        aboutProject: "This app is made from using HTML, CSS ,JAVASCRIPT and this app to help to save your income and expenses and according to income and expense it has to update your budget balance .",
-        FrameWork: "React Js",
-        ProgrammingLang: "Javascript",
-        webLang: "HTML",
-        styling:"CSS",
+        githubLink:'https://github.com/ABHCH/dev-porfiler',
+        proLink:'https://dev-porfiler.vercel.app'
     },
 ]
