@@ -1,31 +1,25 @@
-const projectContainer = document.querySelector(".my-projects");
+const projectContainer = document.querySelector(".project-area");
 const menuBar = document.querySelector(".menu");
 const list = document.querySelector(".list");
 const cross = document.querySelector('.cross');
 
-projectdata.forEach((project) => {
-  const html = `<div class="project1">
+projectdata.forEach((projectdata) => {
+ const html = `
+ <div class="project-cards">
 
-    <div class="project-icons">
-     <a href=""><i class="fa-solid fa-folder"></i></a>
-     <div class="share-projects-option">
-       <a href="" class="my-git"><i class="fa-brands fa-github"></i></a>
-       <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-     </div>
-    </div>
-
-    <div class="projects-details">
-      <div class="project-name">${project.projectName}r</div>
-      <div class="project-details">${project.aboutProject}</div>
-    </div>
-
-    <div class="project-tech-stack">
-      <div class="html">${project.webLang}</div>
-      <div class="react">${project.FrameWork}</div>
-      <div class="js">${project.ProgrammingLang}</div>
-    </div>
-
-  </div>`;
+ <div class="icons">
+   <div class="folder-icon"><i class="fa-solid fa-folder"></i></div>
+   <div class="links-icon">
+   <div class="github-icon"><a href="${projectdata.githubLink}"><i class="fa-brands fa-github"></i></a></div>
+   <div class="project-link"><a href="${projectdata.proLink}"><i class="fa-solid fa-up-right-from-square"></i></a></div>
+   </div>
+ </div>
+ <div class="project-name">${projectdata.projectName}</div>
+ <div class="project-description">${projectdata.aboutProject}</div>
+ <div class="techstack">Tech Stack :- ${projectdata.webLang}  ${projectdata.ProgrammingLang}  ${projectdata.FrameWork}</div>
+</div>
+ `
+ projectContainer.insertAdjacentHTML('afterbegin',html);
 
 });
 
