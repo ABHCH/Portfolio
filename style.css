@@ -309,7 +309,97 @@ body {
 
 /* //////////////////////////////////////////////////////////////////// */
 
+.project-container{
+  margin-top: 5rem;
+  height: 100vh;
+}
+.project-head{
+  color: var(--my-color1);
+  font-family: var(--my-font);
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.project-head span{
+  font-size: 1.3rem;
+  color: var(--my-color);
+  margin-right: 1rem;
+}
 
+.project-area{
+  width: 90%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px,300px));
+  place-content: center;
+  grid-gap: 10px;
+  
+}
+.project-cards{
+  width: 18rem;
+  min-height: 25vh;
+  height: auto;
+  padding: 2rem;
+  background-color: var(--my-color2);
+  cursor: pointer;
+}
+
+.project-cards:hover{
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-10px);
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--my-color);
+  font-size: 2rem;
+}
+ .links-icon a{
+  color: var(--my-color);
+ }
+.links-icon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+.project-name{
+  color: var(--my-color1);
+  margin-top: 1rem;
+}
+.project-description{
+  margin-top: 1rem;
+  color: var(--my-color1);
+}
+
+.techstack{
+  margin-top: 2rem;
+  color: #ccd6f6;
+}
+
+.view-btn{
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  color: var(--my-color);
+  border: 1px solid var(--my-color);
+  background: none;
+  text-transform: uppercase;
+  font-family: var(--my-font3);
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.view-btn a{
+  text-decoration: none;
+  color: var(--my-color);
+}
 
 
 
